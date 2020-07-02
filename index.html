@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language='JavaScript'>
+            var txt="TUGAS TIM G-2 PROGATE";
+            var speed=300;
+            var refresh=null;
+            function action() { document.title=txt;
+            txt=txt.substring(1,txt.length)+txt.charAt(0);
+            refresh=setTimeout("action()",speed);}action();
+        </script>
+        <link rel="shortcut icon" href="./assets/img/ic.png">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/animasi.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <script src="./assets/js/team.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-left">
+                <img src="assets/img/logo2.png" class="logo-header" alt="">
+            </div>
+            <div class="header-left-mobile">
+                <img src="assets/img/logo_favicon.svg" alt="" style="height: 45px; width: 100px;">
+            </div>
+            
+            <div class="header-right">
+                <span style="color: white;" class="fa fa-bars hide"></span>
+                <a href="#" class="head show" >Home</a>
+                <a href="#price" class="head show" >Price</a>
+                <a href="#about" class="head show" >About</a>
+                <a href="#faq" class="head show" >Faq</a>
+            </div>
+        </header>
+        <div class="img-fluid" style="background-image: url(./assets/img/ban.jpg);">
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="banner m-s">Website Development Services</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="m-s title-2" style="color:white; font-weight: normal;"><span class="typedDari"></span></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <button class="btn btn-success m-s b">Get Started</button>
+                        <button class="btn btn-primary b">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="container-fluid">
+            <div class="row" style="background-color: #EFF3F5;">
+                <div class="container">
+                    <div class="row" style="margin-top: 50px; margin-bottom: 50px; text-align: center;">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <img src="./assets/img/troph.svg" class="img1" alt="troph image">
+                            <h2 class="m-v-t">Professional Design</h2>
+                            <p class="m-v-t2">Achieve virtually any look and layout from within the one template.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <img src="./assets/img/res.svg" class="img1" alt="troph image">
+                            <h2 class="m-v-t">Responsive Website</h2>
+                            <p class="m-v-t2">development should respond to the user’s behavior and environment based on screen size, platform and orientation.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <img src="./assets/img/rocket.svg" class="img1" alt="troph image">
+                            <h2 class="m-v-t">Unlimited Power</h2>
+                            <p class="m-v-t2">Find what you need in one template and combine features at will.</p>
+                        </div>
+                    </div>
+                    <a name="price"></a>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 100px; margin-bottom: 100px;">
+                <div class="col-lg-12">
+                    <h2 style="text-align: center;">Price</h2>
+                    <h3 style="font-weight: normal; margin-bottom: 60px; text-align: center;">Create your website starting from IDR 30.000</h3>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card" style="margin-bottom: 20px;">
+                                <div class="card-header">
+                                    <h4 style="font-weight:normal; text-align: center;">Basic</h4>
+                                    <div class="idr">IDR 30.000</div>
+                                    <div class="month">/ bulan</div>
+                                </div>
+                                <div class="card-body">
+                                    <p>5 Pages</p>
+                                    <p>5 image</p>
+                                    <p>+ 1 Logo</p>
+                                    <hr style="text-align: center; width: 50%;  ">
+                                    <p><button class="btn btn-success" style="width: 100%;">Order</button></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="margin-bottom: 20px;">
+                                <div class="card-header">
+                                    <h4 style="font-weight:normal; text-align: center;">Pro</h4>
+                                    <div class="idr">IDR 80.000</div>
+                                    <div class="month">/ bulan</div>
+                                </div>
+                                <div class="card-body">
+                                    <p>10 Pages</p>
+                                    <p>10 image</p>
+                                    <p>+ 1 Logo</p>
+                                    <hr style="text-align: center; width: 50%;  ">
+                                    <p><button class="btn btn-success" style="width: 100%;">Order</button></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card" style="margin-bottom: 20px;">
+                                <div class="card-header">
+                                    <h4 style="font-weight:normal; text-align: center;">Business</h4>
+                                    <div class="idr">IDR 130.000</div>
+                                    <div class="month">/ bulan</div>
+                                </div>
+                                <div class="card-body">
+                                    <p>15 Pages</p>
+                                    <p>15 image</p>
+                                    <p>+ 1 Logo</p>
+                                    <hr style="text-align: center; width: 50%;  ">
+                                    <a name="about"></a>
+                                    <p><button class="btn btn-success" style="width: 100%;">Order</button></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="text-align: center; width: 50%;  ">
+            <div class="row" style="margin-bottom: 200px; margin-top: 100px;">
+                <div class="col-lg-12">
+                    <h2 style="text-align: center; margin-bottom: 60px;">Our Professional Team</h2>
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-2 col-md-3 col-sm-12" style="text-align: center;">
+                            <a href="#popup">
+                                <button class="btn btn-link" style="text-align:left; text-decoration:none;" id="1" onClick="detail(this.id)">
+                                    <img class="team" src="./assets/img/nidya.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12" style="text-align: center;">
+                            <a href="#popup">
+                                <button class="btn btn-link" style="text-align:left; text-decoration:none;" id="2" onClick="detail(this.id)">
+                                    <img class="team" src="./assets/img/syam.jpg" alt="">
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12" style="text-align: center;">
+                            <a href="#popup">
+                                <button class="btn btn-link" style="text-align:left; text-decoration:none;" id="3" onClick="detail(this.id)">
+                                    <img class="team" src="./assets/img/hikmahh.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12" style="text-align: center;">
+                            <a href="#popup">
+                                <button class="btn btn-link" style="text-align:left; text-decoration:none;" id="4" onClick="detail(this.id)">
+                                    <img class="team" src="./assets/img/IMG_0337.png" alt="">
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-12" style="text-align: center;">
+                            <a href="#popup">
+                                <button class="btn btn-link" style="text-align:left; text-decoration:none;" id="5" onClick="detail(this.id)">
+                                    <img class="team" src="./assets/img/kadri.jpg" alt="">
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-lg-1"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- == -->
+            <a name="faq"></a>
+            <div class="row chat">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="./assets/img/chat.svg" alt="" class="contact animated infinite tada">
+                    <span style="color: black;">Klik <a href="#">here</a> for chat with our costumer services</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="./assets/img/phone.svg " alt="" class="contact animated infinite headshake">
+                    <span style="color: black;">Dial to 0813xxxxxxxx or 021xxxxxxxx</span>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="./assets/img/email.svg" alt="" class="contact animated infinite swing">
+                    <span style="color: black;">Send email to infog2@gmail.com</span>
+                </div>
+            </div>
+        </main>
+        <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+    </body>
+    <footer>
+        All Rights Reserved. 2020 &copy; G2-Team
+    </footer>
+    <div id="popup">
+        <div class="window">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div id="img"></div>
+                    </div>
+                    <div class="col-lg-7">
+                        <table>
+                            <tr>
+                                <td>Nama</td>
+                                <td>:</td>
+                                <td><div id="name"></div></td>
+                            </tr>
+                            <tr>
+                                <td>Asal</td>
+                                <td>:</td>
+                                <td><div id="asal"></div></div></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-1">
+                        <a href="#about"><img src="./assets/img/close.svg"  class="icons"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('a.scrollup').click(function () {
+            $(document.body).animate({scrollTop: 0}, 800);
+            return false;
+        });
+    </script>
+    <script src="./assets/js/typed.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</html>
